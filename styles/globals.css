@@ -1,0 +1,117 @@
+html {
+  /* max-width: 600px; */
+  margin: auto;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  direction: rtl;
+}
+
+html,
+body,
+#__next {
+  height: 100%;
+  max-height: 100%;
+  min-height: 0;
+}
+
+#__next,
+main {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: YekanBakh, sans-serif !important;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+ul {
+  list-style: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@font-face {
+  font-family: YekanBakh;
+  font-weight: 100;
+  src: url(../public/fonts/yekanBakh/Yekan\ Bakh\ FaNum\ 01\ Hairline.ttf);
+}
+@font-face {
+  font-family: YekanBakh;
+  font-weight: 200;
+  src: url(../public/fonts/yekanBakh/Yekan\ Bakh\ FaNum\ 02\ Thin.ttf);
+}
+@font-face {
+  font-family: YekanBakh;
+  font-weight: 300;
+  src: url(../public/fonts/yekanBakh/Yekan\ Bakh\ FaNum\ 03\ Light.ttf);
+}
+@font-face {
+  font-family: YekanBakh;
+  font-weight: 400;
+  src: url(../public/fonts/yekanBakh/Yekan\ Bakh\ FaNum\ 04\ Regular.ttf);
+}
+@font-face {
+  font-family: YekanBakh;
+  font-weight: 500;
+  src: url(../public/fonts/yekanBakh/Yekan\ Bakh\ FaNum\ 05\ Medium.ttf);
+}
+@font-face {
+  font-family: YekanBakh;
+  font-weight: 600;
+  src: url(../public/fonts/yekanBakh/Yekan\ Bakh\ FaNum\ 06\ Bold.ttf);
+}
+@font-face {
+  font-family: YekanBakh;
+  font-weight: 700;
+  src: url(../public/fonts/yekanBakh/Yekan\ Bakh\ FaNum\ 07\ Heavy.ttf);
+}
+@font-face {
+  font-family: YekanBakh;
+  font-weight: 800;
+  src: url(../public/fonts/yekanBakh/Yekan\ Bakh\ FaNum\ 08\ Fat.ttf);
+}
+
+@font-face {
+  font-family: IranSans;
+  font-weight: 300;
+  src: url(../public/fonts/iranSans/IRANSans\(FaNum\)_Light.ttf);
+}
+@font-face {
+  font-family: IranSans;
+  font-weight: 400;
+  src: url(../public/fonts/iranSans/IRANSans\(FaNum\)_Medium.ttf);
+}
+@font-face {
+  font-family: IranSans;
+  font-weight: 500;
+  src: url(../public/fonts/iranSans/IRANSans\(FaNum\).ttf);
+}
+@font-face {
+  font-family: IranSans;
+  font-weight: 600;
+  src: url(../public/fonts/iranSans/IRANSans\(FaNum\)_Bold.ttf);
+}
+@font-face {
+  font-family: IranSans;
+  font-weight: 700;
+  src: url(../public/fonts/iranSans/IRANSans\(FaNum\)_Black.ttf);
+}
